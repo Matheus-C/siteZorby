@@ -1,0 +1,18 @@
+/* Importação da fonte no início */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+/* Resetando as margens e o padding padrão */
+body, html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden; /* Evita scroll horizontal indesejado */
+  font-family: 'Poppins', sans-serif; /* Aplica a fonte Poppins globalmente */
+  color: #333; /* Cor padrão do texto */
+  background-color: #f9f9f9; /* Cor suave de fundo */
+}
+
+/* Aplica o box-sizing para todos os elementos */
+*, *::before, *::after {
+  box-sizing: inherit;
+}

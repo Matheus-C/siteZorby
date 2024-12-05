@@ -1,0 +1,72 @@
+.hero-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 50px;
+  background: linear-gradient(to bottom right, #9BD6C0 50%, #E7D6F3 50%);
+  height: 100vh;
+  text-align: center;
+}
+
+.app-screen {
+  width: 300px;
+}
+
+.hero-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hero-logo {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.hero-logo img {
+  width: 75px;
+}
+
+.hero-logo h2 {
+  font-weight: lighter;
+}
+
+.hero-text {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.doctors-img {
+  width: 500px;
+}
+
+.phone-mockup {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.downloads {
+  display: flex;
+  align-items: flex-start;
+}
+
+.downloads img {
+  width: 150px; /* Define uma largura fixa */
+  height: auto; /* Mantém a proporção da imagem */
+  object-fit: contain; /* Garante que a imagem se ajuste bem ao tamanho */
+  margin: 0 10px;
+}
+
+@media (max-width: 768px) {
+  .hero-section {
+    flex-direction: column;
+  }
+
+  .doctors-img,
+  .app-screen {
+    width: 80%;
+  }
+}
